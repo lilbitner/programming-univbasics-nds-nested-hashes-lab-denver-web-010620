@@ -40,6 +40,19 @@ def aoh_lookup(aoh, row, key)
 end
 
 def aoh_update(aoh, row, key, new_value)
+  literal_aoh = [
+    {:name => "Don Gately", :occupation => "Live-in Staff"},
+    {:name => "Joelle van Dyne", :occupation => "Radio Personality"}, 
+    {:name => "Pat Monteseian", :occupation => "Staff"}, 
+    {:name => "Kate Gompert", :occupation => "None"},
+    {:name => "Bruce Green", :occupation => "Fan of Mildred"}
+    ]
+    
+  literal_aoh[1][:name]["Joelle van Dyne"]
+  puts literal_aoh
+  
+
+  
   # Update the AoH data at row and key to have the value of new_value
   # Return the updated AoH
 end
