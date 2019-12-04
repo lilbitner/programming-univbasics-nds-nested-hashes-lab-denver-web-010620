@@ -51,7 +51,7 @@ def aoh_update(aoh, row, key, new_value)
   
   
   local_copy_of_aoh[1][:name] = "Joelle van Dyne (PGOAT)"
-  puts local_copy_of_aoh
+  local_copy_of_aoh
   
 
   
