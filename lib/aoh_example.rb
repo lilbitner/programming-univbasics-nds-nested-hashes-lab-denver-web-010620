@@ -49,7 +49,7 @@ def aoh_update(aoh, row, key, new_value)
     ]
     
   literal_aoh[1][:name] = "Joelle van Dyne (PGOAT)"
-  puts literal_aoh[1] 
+  puts literal_aoh 
   
 
   
